@@ -1,0 +1,9 @@
+\babel@toc {czech}{}
+\contentsline {section}{\numberline {1}\IeC {\'U}vod}{3}% 
+\contentsline {subsection}{\numberline {1.1}Stru\IeC {\v c}n\IeC {\'a} historie}{3}% 
+\contentsline {subsection}{\numberline {1.2}Druhy kol}{3}% 
+\contentsline {section}{\numberline {2}V\IeC {\'y}b\IeC {\v e}r kola}{4}% 
+\contentsline {subsection}{\numberline {2.1}Pr\IeC {\r u}m\IeC {\v e}r kol}{4}% 
+\contentsline {subsection}{\numberline {2.2}V\IeC {\'y}bava kola}{4}% 
+\contentsline {section}{\numberline {3}Technika j\IeC {\'\i }zdy}{5}% 
+\contentsline {subsection}{\numberline {3.1}Pohled}{5}% 
