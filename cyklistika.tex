@@ -3,6 +3,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{a4wide}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{cite}
+\usepackage{url}
+\graphicspath{ {./img/} }
 
 \begin{document}
 \begin{titlepage}
@@ -33,7 +38,7 @@
 \vspace*{\fill}
 \noindent © Robert Blažek, 2020
 \newline \newline
-Prohlašuji, že jsem tuto práci vypracoval samostatně s~použitím uvedených pramenů.
+Prohlašuji, že jsem tuto práci vypracoval samostatně s~použitím uvedených pramenů. \newline Všechny obrázky, není-li uvedeno jinak, jsou mým dílem.
 \newline \newline \newline \newline 
 \begin{tabular}{@{}p{0in}p{4in}@{}}
     & \hrulefill \\
@@ -45,11 +50,11 @@ Prohlašuji, že jsem tuto práci vypracoval samostatně s~použitím uvedených
 \newpage
 
 \section{Úvod}
-V této práci bych rád pokryl historii a druhy jízdních kol, druhy závodní cyklistiky a~problematiku správného výběru a péče o jízdní kolo. Dále se chci zaměřit na správné zvládnutí základních dovedností, jako jsou např. pohled a posed, průjezd zatáčkou, práce s těžištěm a~řazení. Práce se soustředí hlavně na nejpopulárnější horská kola.
+V této práci bych rád pokryl historii a druhy jízdních kol, druhy závodní cyklistiky a~problematiku správného výběru a péče o jízdní kolo. Dále se chci zaměřit na správné zvládnutí základních dovedností, jako jsou např. pohled, průjezd zatáčkou a práce s těžištěm. Práce se soustředí hlavně na nejpopulárnější horská kola.
 \subsection[Stručná historie]{Stručná historie cyklistiky}
-Jízdní kolo bylo vynalezeno na počátku 19. století. Jednalo se o tzv. drezínu podobnou dnešnímu odrážedlu s dřevěnými koly, které jízdu dělaly obzvlášť nepohodlnou. V~druhé polovině 19. stolení byly přidány pedály pevně spojené s~předním kolem a~objevily se první pokusy o~změkčení jízdy s využitím gumových plášťů a odpruženého sedla.
-\paragraph*{} Za učelem zvýšení efektivity šlapání a rychlosti postupně docházelo ke zvětšování předního kola, čímž vzniklo tzv. vysoké kolo. Jeho nesporná nevýhoda však spočívala ve vysokém těžišti (o~něm ještě uslyšíme), a~s~ním spojené nestabilitě. 
-\paragraph*{} Teprve na začátku 20. století se začíná objevovat kolo současného typu s~řetězem, pneumatikami a lankovými brzdami. Dalším mezníkem byl až vynález horského kola na přelomu 70.~a~80.~let.
+Jízdní kolo bylo vynalezeno na počátku 19. století. Jednalo se o tzv. drezínu podobnou dnešnímu odrážedlu s dřevěnými koly, které jízdu dělaly obzvlášť nepohodlnou. V~druhé polovině 19. stolení byly přidány pedály pevně spojené s~předním kolem a~objevily se první pokusy o~změkčení jízdy s využitím gumových plášťů a odpruženého sedla.\cite{kolowiki}
+\paragraph*{} Za učelem zvýšení efektivity šlapání a rychlosti postupně docházelo ke zvětšování předního kola, čímž vzniklo tzv. vysoké kolo. Jeho nesporná nevýhoda však spočívala ve vysokém těžišti (o~něm ještě uslyšíme), a~s~ním spojené nestabilitě. \cite{kolowiki}
+\paragraph*{} Teprve na začátku 20. století se začíná objevovat kolo současného typu s~řetězem, pneumatikami a lankovými brzdami. Dalším mezníkem byl až vynález horského kola na přelomu 70.~a~80.~let. \cite{kolowiki}
 \subsection[Druhy kol]{Druhy jízdních kol}
 \textit{Moderní jízdní kola se nejčastěji dělí podle funkce. Pro zjednodušení uvádím obceně nejrozšířenější standardní druhy používané v~cyklistickém sportu.}
 \paragraph*{Horské kolo}je v~současnosti asi nejpopulárnějším druhem jízdního kola. Vyznačuje se zejména širokými plášti a~velmi odolným rámem a komponenty určenými pro jízdu v terénu. Obvykle má odpruženou vidlici, dostatek převodů pro příkrá stoupání a spolehlivé diskové brzdy pro prudké sjezdy.
@@ -57,11 +62,18 @@ Jízdní kolo bylo vynalezeno na počátku 19. století. Jednalo se o tzv. drez�
 \paragraph*{Trekové/krosové kolo}je kompromisem mezi horským a silničním kolem. Má menší odpor na silnici a odolnější konstrukci do lehčího terénu.
 \paragraph*{Trialové kolo}neboli BMX je speciální kategorie kol určená k jízdě na překážkách a bikrosových tratích. Vyznačuje se malými koly, jednoduchou konstrukcí a~stupačkami umožňujícími triky a jízdu po předním/zadním kole.
 \newpage
-\section[Výběr kola]{Jak vybrat kolo}
+\section[Výběr kola]{Jak vybrat horské kolo}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{mtb}
+    \caption{Horské kolo  \tiny{foto: Specialized.com}}
+    \label{fig:mtb}
+\end{figure}
 \subsection{Průměr kol}
 Průměr samotného kola se udává v palcích ("). Záleží na něm hlavně u~dětských kol - u~kol pro dospělé se velikosti pohybují od 26"~do 29"~a záleží hlavně na schopnostech jezdce. 
 \newline Je nevhodné, aby malé děti jezdily na kole, které je příliš velké nebo malé. V závodním prostředí je však běžné dětem pořizovat větší kola pro jejich lepší jízdní vlastnosti. 
 \begin{table}[h]
+\caption{\label{tab:detskakola}Doporučený průměr dětských kol \cite{velikostiKol}}
     \centering
     \begin{tabular}{|c | c | c |} 
         \hline
@@ -74,14 +86,147 @@ Průměr samotného kola se udává v palcích ("). Záleží na něm hlavně u~
         26 & nad 140 & nad 10 let \\
         \hline
     \end{tabular}
-\caption{\label{tab:detskakola}Doporučené velikosti dětských kol}
+
+\end{table}
+\subsection{Velikost rámu}
+Velikost rámu se rovněž udává v palcích a určuje se podle následující tabulky.
+\begin{table}[h]
+\caption{\label{tab:velikostRamu}Doporučené velikosti rámu \cite{velikostiKol}}
+    \centering
+    \begin{tabular}{|c | c | c |} 
+        \hline
+        Výška postavy (cm) & Velikost rámu (") & Velikost rámu \\ 
+        \hline\hline
+        140 - 160 & 14 - 15 & XS \\ 
+        \hline
+        160 - 172 & 15,5 - 16,5 & S \\
+        \hline
+        168 - 180 & 17 - 18 & M \\
+        \hline
+        177 - 187 & 18,5 - 19,5 & L \\
+        \hline
+        184 - 197 & 20 - 21,5 & XL \\
+        \hline
+        195 - ?~~ & 22 - 23 & XXL \\
+        \hline
+    \end{tabular}
+
 \end{table}
 
-\subsection{Výbava kola}
+\newpage\subsection[Výbava jízdního kola]{Výbava kola}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.95\textwidth]{kolo}
+    \caption{Součásti jízdního kola  \tiny{foto: wikipedie, autor: Niabot – Image:Bicycle\_diagram-en.svg}}
+    \label{fig:kolo}
+\end{figure}
+\subsubsection*{Materiál}
+Rámy jízdních kol se nejčastěji vyrábí ze slitiny hliníku. Ten se ve slitinách kombinuje nejčastěji s hořčíkem a s ocelí. Cílem je nabídnout maximální pevnost a co nejmenší hmotnost.
+Specialitou jsou rámy z karbonového kompozitu, které se vyznačují svou lehkostí. Velkou nevýhodou je však vysoká cena a náchylnost na požkození, jelikož vrstvy karbonu se mohou po nárazu oddělit od sebe.
+
+\subsubsection*{Převody a řazení}
+Na kole tradičně najdeme dvě nebo tři ozubená kola vepředu a osm až deset pastorků vzadu. Obecně platí pravidlo, že čím méně vepředu a více vzadu, tím lépe. Polohu řetězu ovládá přehazovačka a přední přesmykač \textit{(nebo prostě přední a zadní přehazovačka)}. Ty se ovládají páčkami na řídítkách. 
+
+Současným trendem je přesouvání převodů na zadní kazetu, kdy vepředu zůstane jen jediné ozubené kolo. Tento systém je značně pohodlný a vhodný pro závodní nasazení. Toto řazení je o něco rychlejší a plynulejší.
 
 \newpage
-\section{Technika jízdy}
+\subsubsection*{Brzdy}
+Brzdy se dělí vesměs na dva druhy, špalíkové \textit{("véčkové")} a diskové. Většina nových kol se naštěstí prodává již s diskovými brzdami, které nabízí lepší brzdící výkon. Špalíkové brzdy rychle ztrácí účinnost pokud se namočí nebo zašpiní.\\
+\begin{figure}[h!]
+    \centering
+    \begin{minipage}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{kotouc}
+        \caption{Brzdový kotouč horského kola \newline{}\tiny{foto: Tektro}}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{desticky}
+        \caption{Brzdové destičky s chladičem \newline{}\tiny{foto: Shimano}}
+    \end{minipage}
+\end{figure}
 
-\subsection{Pohled}
+\noindent{}Specialitou jsou diskové brzdy pro sjezdová kola, která mají na kotoučích a brzdových destičkách namontované chladiče kvůli extrémním teplotám, které mohou při brzdění vzniknout.
+
+\subsubsection*{Vidlice a tlumení}
+Téměř všechna horská kola se prodávají s odpruženou přední vidlicí. Celoodpružená horská kola do těžšího terénu mají navíc tlumič zabudovaný v zadní části rámu.
+
+Existují vesměs dva typy tlumičů podle jejich vnitřní funkce – levnější \textbf{pružinové}, které jsou určené spíše pro nenáročné jezdce kvůli jejich nízkému zdvihu a pomalým reakcím na terén; a \textbf{vzduchové}, které se dají nastavovat přesně podle individuálních potřeb a nabízí zpravidla vyšší zdvih, menší hmotnost a pohodlnější jízdu. Pokud s~kolem plánujete vyrazit do terénu, určitě zvažte investici do vzduchových tlumičů.
+
+\newpage\section{Technika jízdy}
+\subsection{Rovnováha a práce s těžištěm}
+Zní to možná zvláštně, ale ten kdo umí kolo ovládat v pomalé rychlosti, umí jet i mnohem rychleji. Základem je udržet svoje těžíště přesně nad místem kudy chceme jet. Váš trup by měl zůstat na stejném místě, lokty a kolena mírně do široka, ať se kolo pod vámi může volně pohybovat. 
+
+Rovněž důležité je to, kam se koukáte. Váš pohled by měl směřovat tam, kam chcete jet, cca. 1-4 metry před sebe. V žádném případě na přední kolo! 
+Snažte se držet pedály v rovině a nedívat se na překážku, které se bojíme – např. kámen, do kterého nechceme narazit. Kam se díváte, tam jedete.
+
+Na trénink rovnováhy se hodí třeba čára na parkovišti, prkno nebo obrubník, ideálně mírně do kopce. Zkuste se rozjet a postupně zpomalovat a přitom nesjet z čáry. Až budete mít pocit, že ztrácíte kontrolu, zkuste se šlápnutím do pedálů po čáře zase rozjet. Jedte ve stoje a vyvažujte kolem, ne trupem.
+\subsection[Zatáčení]{Průjezd zatáčkou}
+Nejčastější chybou je přijet rychle do zatáčky, až v ní začít brzdit a na poslední chvíli zatáčet a řešit, kam cesta pokračuje. 
+
+Průjezd zatáčkou se dá rozdělit na 3 části – \textbf{příprava, průjezd a výjezd.}\cite{dressler}
+
+\paragraph*{Příprava}hraje zásadní roli. Nejdříve je důležité zjistit jak moc a kam se bude váš směr měnit a jaký je povrch zatáčky. Pokud vám cokoli brání získat tyto informace, je potřeba předvídat a najíždět do zatáčky opatrně. 
+
+Teď je důležité včas přibrzdit, a to ještě před nájezdem do zatáčky tak, abyste do ní přijeli už připravení. Zvolte si co nejplynulejší trasu, kterou pojedete. \textbf{Dívejte se tam, kam chcete jet.} Při nájezdu pootočte hlavou směrem k vnitřní straně zatáčky. Tím se vám podaří správně nastavit těžiště a kolo vás dovede vás ven ze zatáčky. 
+
+\paragraph*{Průjezd}by měl být co nejplynulejší. Velmi důležité jsou pozice pedálů. V zatáčce se opřete do toho vnějšího a udržujte těžiště mírně vzadu. Při průjezdu si můžete plynule přibržďovat. Ale pozor, přední kolo se nesmí přestat točit! Pokud je zatáčka velmi ostrá, můžete si pomoct \textit{(řízeným!)} smykem zadního kola.
+\paragraph*{Výjezd}je důležitý, hlavně pokud chcete zatáčkou projet co nejrychleji. Nejlepší je už v~druhé půlce zatáčky začit šlapat a~nasměrovat kolo kam chcete pokračovat. Přitom je důležité dát pozor na to, abyste si neškrtli vnitřním pedálem o terén a nespadli.
+
+Určitě se vyplatí jezdit zatáčky ve stoje, umožňuje to lepší kontrolu nad kolem.
+
+\newpage
+\subsection{Brzdění}
+Schopnost bezpečně zpomalit a zastavit je třetí nejzákladnější dovedností na kole, kterou by měl zvládat úplně každý. Při brzdění je dobré přenést těžiště trochu dozadu. Klíčové je rozložení brzdné síly mezi zadní \textit{a přední} kolo. \textbf{Správné je brzdit oběma brzdami současně.} Přední kolo umožňuje rychlejší zpomalení na rovné dráze, ale jeho smyk často končí pádem. Smyk tolik nevadí u zadního kola, kde stačí pustit zadní brzdu a kolo se odblokuje. 
+
+\paragraph*{Rozložení brzdné síly}
+Na rovném povrchu si můžeme dovolit rozložit brzdnou sílu skoro v poměru \textbf{1:1}. Přední vidlice se zmáčkne a posune vám těžiště o něco dopředu. To je potřeba upravovat posunutím trupu směrem k zadnímu kolu. 
+
+Naopak v terénu je vhodné nechat přední kolo, aby se točilo a hledalo si cestu mezi nerovnostmi. Brzdnou sílu můžeme rozdělit přibližně jako 25\% na přední kolo a 75\% na zadní kolo. \newline
+
+\noindent Na některých površích (třeba na štěrku nebo písku) je bezpečnější nechat kolo jet a zaměřit se na udržení kontroly nad kolem a těžištěm. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{drop}
+    \caption{Obrázek pro dokreslení atmosféry \tiny{foto: vlastní}}
+    \label{fig:drop}
+\end{figure}
+\newpage
+
+\section{Závěr}
+V této práci jste se dozvěděli základní historii, anatomii a druhy jízdních kol. V další části jsme se věnovali třem základním dovednostem v jízdě na horském kole. Doufám, že tato práce bude i přínosem pro její čtenáře, a že se třeba dozví něco nového. 
+
+Na kole jezdím už velmi dlouho a rád se učím nové věci. Je to pro mě příjemné odreagování a příležitost být na čerstvém vzduchu. Témat okolo cyklistiky je mnohem víc, tohle byl spíše přehled toho nejzákladnějšího. 
+\newline\noindent\newline\large{\textbf{Bavte se s kolem.}}
+\vspace*{2cm}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{dab}
+\end{figure}
+\newpage
+\bibliographystyle{plain}
+\begin{thebibliography}{10}
+\bibitem{dressler}
+DRESSLER, Josef, \textit{Škola kola.}, 2014
+
+\bibitem{kolowiki}
+Přispěvatelé Wikipedie, Jízdní kolo [online], Wikipedie: Otevřená encyklopedie, c2020, Datum poslední revize 4. 06. 2020, 08:05 UTC, [citováno 7. 06. 2020] \newline <\url{https://cs.wikipedia.org/w/index.php?title=J%C3%ADzdn%C3%AD_kolo&oldid=18591746}>
+
+\bibitem{velikostiKol}
+Bike-eshop.cz, Tabulka velikosti kola k postavě [online], [citováno 7. 06. 2020]\newline <\url{https://www.bike-eshop.cz/tabulka-velikosti-kola-k-postave}>
+\end{thebibliography}
+\vspace*{2cm}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{kola}
+\end{figure}
+
+\newpage
+\pagenumbering{gobble}
+\vspace*{\fill}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.2\textwidth]{ikona}
+\end{figure}
 
 \end{document}

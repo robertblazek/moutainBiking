@@ -4,6 +4,10 @@
 \contentsline {subsection}{\numberline {1.2}Druhy kol}{3}% 
 \contentsline {section}{\numberline {2}V\IeC {\'y}b\IeC {\v e}r kola}{4}% 
 \contentsline {subsection}{\numberline {2.1}Pr\IeC {\r u}m\IeC {\v e}r kol}{4}% 
-\contentsline {subsection}{\numberline {2.2}V\IeC {\'y}bava kola}{4}% 
-\contentsline {section}{\numberline {3}Technika j\IeC {\'\i }zdy}{5}% 
-\contentsline {subsection}{\numberline {3.1}Pohled}{5}% 
+\contentsline {subsection}{\numberline {2.2}Velikost r\IeC {\'a}mu}{4}% 
+\contentsline {subsection}{\numberline {2.3}V\IeC {\'y}bava j\IeC {\'\i }zdn\IeC {\'\i }ho kola}{5}% 
+\contentsline {section}{\numberline {3}Technika j\IeC {\'\i }zdy}{7}% 
+\contentsline {subsection}{\numberline {3.1}Rovnov\IeC {\'a}ha a pr\IeC {\'a}ce s t\IeC {\v e}\IeC {\v z}i\IeC {\v s}t\IeC {\v e}m}{7}% 
+\contentsline {subsection}{\numberline {3.2}Zat\IeC {\'a}\IeC {\v c}en\IeC {\'\i }}{7}% 
+\contentsline {subsection}{\numberline {3.3}Brzd\IeC {\v e}n\IeC {\'\i }}{8}% 
+\contentsline {section}{\numberline {4}Z\IeC {\'a}v\IeC {\v e}r}{9}% 
